@@ -65,7 +65,7 @@ ul li:nth-child(3n+1){
 ul li:nth-child(3n+2){
     background:rgba(255,0,255,1);
     animation:animate2 1.5s linear infinite;
-    animation-delay:.5s;
+    animation-delay:1s;
 
 }
 @keyframes animate2{
