@@ -81,20 +81,20 @@ ul li:nth-child(3n+2){
     }
 }
 ul li:nth-child(3n+3){
-    background:rgba(50,255,0,1);
+    background:rgb(60, 18, 128);
     animation:animate3 1.5s linear infinite;
     animation-delay:1s;
 
 }
 @keyframes animate3{
     0%{
-        background: rgba(50,255,0,.2);
+        background: rgb(60, 18, 128,.2);
     }
     50%{
-        background:rgba(50,255,0,1);
-        box-shadow:0 0 25px rgba(50,255,0,1), 0 0 45px rgba(50,255,0,1);
+        background:rgb(60, 18, 128,1);
+        box-shadow:0 0 25px rgb(60, 18, 128,1), 0 0 45px rgb(60, 18, 128,1);
     }
     100%{
-        background:rgba(50,255,0,.2);
+        background:rgb(60, 18, 128,.2);
     }
 }
